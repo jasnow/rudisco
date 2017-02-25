@@ -5,5 +5,5 @@ gemspec
 
 group :development do
   gem 'webmock', require: false
-  gem 'rspec',   require: false
+  gem 'rspec', require: false
 end
