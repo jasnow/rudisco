@@ -19,12 +19,12 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '>= 2.1.10'
 
-  s.add_runtime_dependency 'rake', '~> 12.0', '>= 12.0.0'
+  s.add_runtime_dependency 'rake'
 
-  s.add_dependency 'sqlite3',               '~> 1.3.13', '>= 1.3.13'
-  s.add_dependency 'sequel',                '~> 4.42.1', '>= 4.42.1'
-  s.add_dependency 'thor',                  '~> 0.19.4', '>= 0.19.4'
-  s.add_dependency 'command_line_reporter', '~> 3.0',    '>= 3.0'
+  s.add_dependency 'sqlite3'
+  s.add_dependency 'sequel'
+  s.add_dependency 'thor'
+  s.add_dependency 'command_line_reporter'
 
   s.requirements << 'wget' # @see Rudisco::Helpers#download
   s.requirements << 'git'  # @see Rudisco::Helpers#git_clone
