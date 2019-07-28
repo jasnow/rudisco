@@ -19,8 +19,6 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '>= 2.1.10'
 
-  s.add_runtime_dependency 'rake'
-
   s.add_dependency 'sqlite3'
   s.add_dependency 'sequel'
   s.add_dependency 'thor'
